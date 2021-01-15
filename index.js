@@ -6,7 +6,7 @@ const path = require("path")
 
 const app = express()
 
-PORT = 8080
+PORT = process.env.PORT || 8080
 
 
 
